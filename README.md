@@ -16,6 +16,18 @@
 -   Основы JS — [https://learn.javascript.ru/first-steps](https://learn.javascript.ru/first-steps)
 -   Знание части TypeScript инструкций — [функции](https://www.typescriptlang.org/docs/handbook/2/functions.html) и [дженерики](https://www.typescriptlang.org/docs/handbook/2/generics.html).
 
+## Быстрый старт
+
+1. Копируем репозиторий \
+   `git clone git@github.com:simon-programmer/utils.git && cd utils`
+2. Устанавливаем зависимости \
+   `npm ci`
+3. Реализуем какую-нить утилиту \
+   Например `move`
+4. Проверяем что на тестах что все корректно \
+   `npm test -- --watch move`
+5. Все)
+
 ## Задания
 
 В репозитрии есть как исходные задания (болванки утилит) так и их реализация.\

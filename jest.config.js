@@ -1,11 +1,4 @@
 module.exports = {
     preset: 'ts-jest',
-    testURL: 'http://localhost/',
-    globals: {
-        'ts-jest': {
-            tsconfig: {
-                esModuleInterop: true,
-            },
-        },
-    },
+    testMatch: ['**/__tests__/*.[jt]s?(x)', '**/__tests__/**/*.[jt]s?(x)'],
 };
